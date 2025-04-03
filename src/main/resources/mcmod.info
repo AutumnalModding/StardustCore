@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "Core mod for Project Stardust.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://github.com/StardustDevelopment/StardustCore",
+		"updateUrl": "",
+		"authorList": ["SpectreiCyanogen / LilyflowerFDL"],
+		"credits": "Ampflower (for helping me with the stupidcursed transformer system)",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
+}

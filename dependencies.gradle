@@ -1,0 +1,22 @@
+//file:noinspection DependencyNotationArgument
+//file:noinspection GroovyAssignabilityCheck
+
+dependencies {
+    shadowImplementation 'org.reflections:reflections:0.10.2'
+
+    implementation deobfCurse("baubles-227083:2224857")
+    implementation deobfCurse("thaumcraft-223628:2227552")
+    implementation deobfCurse("botania-225643:2283837")
+
+    implementation deobfCurse("the-lord-of-the-rings-mod-legacy-423748:4091561")
+
+    implementation deobfCurse("dragonapi-235591:4722480")
+    implementation deobfCurse("chromaticraft-235590:4721192") // fucking killing reika with hammers. why do you have so many goddamn dev dependencies.
+    runtimeOnly deobfCurse("forestry-59751:2333823")
+    runtimeOnly deobfCurse("mystcraft-224599:2417042")
+    runtimeOnly deobfCurse("blood-magic-224791:2264826")
+    runtimeOnly deobfCurse("ars-magica-2-67313:2280862")
+    runtimeOnly deobfCurse("animation-api-77191:2221721")
+    runtimeOnly deobfCurse("industrial-craft-242638:2353971")
+    runtimeOnly deobf("file:/mnt/Development/StardustCore/libs/PneumaticCraft.jar") // You can't even fucking get this on CF anymore. Had to pull it from The 1.7.10 Pack.
+}
